@@ -9,8 +9,9 @@
     "forceConsistentCasingInFileNames": true,
     "jsx": "react",
     "allowSyntheticDefaultImports": true,
-    "outDir": "lib"
+    "outDir": "dist",
+    "declaration": true
   },
-  "include": ["src/**/*"],
+  "include": ["src"],
   "exclude": ["node_modules", "android", "ios"]
 }
