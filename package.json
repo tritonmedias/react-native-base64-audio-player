@@ -6,8 +6,7 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
-    "lint": "eslint . --ext .ts,.tsx",
-    "prepare": "tsc"
+    "lint": "eslint . --ext .ts,.tsx"
   },
   "peerDependencies": {
     "react": ">=18.0.0",
