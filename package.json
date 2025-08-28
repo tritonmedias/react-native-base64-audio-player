@@ -1,0 +1,39 @@
+{
+  "name": "react-native-base64-audio-player",
+  "version": "1.0.0",
+  "description": "Native module to play base64 audio in memory for React Native (Android & iOS)",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint . --ext .ts,.tsx"
+  },
+  "peerDependencies": {
+    "react": ">=18.0.0",
+    "react-native": ">=0.76.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2",
+    "@types/react": "^18.0.0",
+    "@types/react-native": "^0.76.0",
+    "eslint": "^8.0.0"
+  },
+  "keywords": [
+    "react-native",
+    "audio",
+    "base64",
+    "exoplayer",
+    "avaudioplayer"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tritonmedias/react-native-base64-audio-player.git"
+  },
+  "author": "Antonio Gil",
+  "license": "MIT",
+  "files": [
+    "src",
+    "android/src/main/java/com/base64audio",
+    "ios"
+  ]
+}
