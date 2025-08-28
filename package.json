@@ -13,10 +13,12 @@
     "react-native": ">=0.76.0"
   },
   "devDependencies": {
-    "typescript": "^5.2.2",
     "@types/react": "^18.0.0",
-    "@types/react-native": "^0.76.0",
-    "eslint": "^8.0.0"
+    "@types/react-native": "0.73.0",
+    "@typescript-eslint/eslint-plugin": "^8.41.0",
+    "@typescript-eslint/parser": "^8.41.0",
+    "eslint": "^8.0.0",
+    "typescript": "^5.2.2"
   },
   "keywords": [
     "react-native",
@@ -31,9 +33,11 @@
   },
   "author": "Antonio Gil",
   "license": "MIT",
+  "type": "module",
   "files": [
     "src",
-    "android/src/main/java/com/base64audio",
-    "ios"
+    "android",
+    "ios",
+    "react-native-base64-audio-player.podspec"
   ]
 }
